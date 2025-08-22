@@ -1,0 +1,32 @@
+# Arquivo de ambiente
+.env
+
+# Dependências do Go (gerenciadas pelo go.mod)
+vendor/
+
+# Arquivos binários e objetos compilados
+*.exe
+*.out
+*.o
+*.a
+
+# Arquivos gerados pelo IDE ou editor
+*.swp
+*.swo
+*.sublime-workspace
+*.vscode/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+
+docker-compose.override.yml
+docker-compose.yml
+
+# Diretórios de build
+bin/
+dist/
+
+# Ignorar arquivos específicos do sistema
+.DS_Store
+Thumbs.db
